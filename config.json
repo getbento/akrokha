@@ -8,7 +8,7 @@
         "type": "section",
         "items": {
           "background_color": "color",
-          "header_image": "image"
+          "header_image": "image",
         }
       }
     }
