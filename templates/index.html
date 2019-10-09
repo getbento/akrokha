@@ -12,11 +12,17 @@ body {
 </style>
     <body>
         <h4>
-            Hello World!
+            Welcome to Swag nation yo!
         </h4>
+
+
         <h2>{{ theme.options.main.header_image.alt_text }}</h2>
         <img src= " {{ theme.options.main.header_image.url }}" />
-<em>A theme by: {{ theme.config.theme.name }}</em>
+
+
+{{ boxes.insult.all|random.name }}
+
+
     </body>
 
 </html>
